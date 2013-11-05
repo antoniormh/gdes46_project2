@@ -30,8 +30,7 @@
     visibility: hidden;
 }
 #header-container{
-   /* background-color: #736E6A;*/
-    background-color: #FCDACC;
+    background-color: #fff;
     padding-bottom: 10px;
 }
 #header-wrapper{
@@ -45,6 +44,7 @@
 }
 header #logo{
     padding: 10px;
+    padding-top: 30px;
 }
 /*text*/
 body{
@@ -313,7 +313,7 @@ section.main-content-sec li{
 }
 /*footer*/
 #footer{
-    background-color: #FCDACC;
+    background-color: #00CCFF;
     /*height: 50px;*/
     margin: 0 0;
     padding:  20px 0;
