@@ -233,12 +233,14 @@ a:active{
 /*Main content*/
 .column{
     display: inline-block;
-    
 }
+
 #hero-pic{
     width: 100%;
-    padding: 20px 0;
-    background-color: #ECF0F1;
+    /*background-color: #D2FFFF;*/
+}
+#hero-pic .wrapper img{
+    width: 100%;
 }
 #hero-text{
     text-align: center;
@@ -377,7 +379,7 @@ input[type="submit"]{
 
 /*index page*/
 #index #hero-pic{
-    padding: 50px 0;
+
 }
 /*about page*/
 #about{
