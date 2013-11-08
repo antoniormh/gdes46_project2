@@ -118,7 +118,8 @@ h6{
 }
 /*links*/
 a{
-    color: #f14500;
+    color: #22A5BA;
+    text-decoration: none;
 }
 a:hover{
     color: #d69e08;
@@ -156,11 +157,11 @@ a:active{
 
 }
 #header-container .right nav{
-    
+    margin-bottom: 10px;
 
 }
 #header-container .right nav ul{
-    
+    margin-bottom: 10px;
 }
 #header-container .right nav ul li{
     
@@ -168,16 +169,21 @@ a:active{
 
 }
 #header-container .right nav ul li a{
-    color: #f14500;
+    color: #22A5BA;
+    
     display: inline-block;
+}
+#header-container .right nav ul li a:hover, #header-container .right nav ul li a:active{
+    color: #22A5BA;
+    margin-bottom: -2px;
+    border-bottom: 2px solid #E31E79;
 }
 #main-nav{
     margin-top: 60px;
-    
-
 }
 #main-nav li{
     margin: 5px;
+    margin-bottom: 10px;
 }
 /*text*/
 .align-right{
@@ -374,7 +380,11 @@ input[type="text"]{
 input[type="submit"]{
     margin-right: 50px;
 }
-
+#contact input[type="submit"]{
+    margin-left: 110px;
+    margin-top: 10px;
+    margin-right: 0;
+}
 
 
 /*index page*/
@@ -444,6 +454,11 @@ input[type="submit"]{
     input[type="submit"]{
     margin-top: 30px;
     }
+    #contact input[type="submit"]{
+    margin-left: 56px;
+    margin-top: 10px;
+    margin-right: 0;
+}
 }
 
 /*medium tablet landscape*/
